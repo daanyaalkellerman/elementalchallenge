@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -17,7 +17,39 @@
             <span></span>
           </label>
     </nav>
-    <section class="slider">
+    <section class="hero-slider">
+        <div class="slides">
+            <div class="slide active">
+                <div id="text" class="blueblock">LOOK BEYOND THE ORDINARY</div>
+                <img class="images" src="assets/4k-mountain-1obt47t74ynfn450.jpg" alt="">
+                <div class="block"></div>
+            </div>
+            <div class="slide">
+                <div id="text" class="blueblock">LOOK BEYOND THE ORDINARY</div>
+                <img class="images" src="/assets/4k-mountain-fujjoqqen0rsvm76.jpg" alt="Slide 2">
+                <div class="block"></div>
+            </div>
+            <div class="slide">
+                <img class="images" src="/assets/winter-mountains-4k-hd-wbv488uehoo5l09t.jpg" alt="Slide 3">
+                <div class="block"></div>
+            </div>
+            <div class="slide">
+                <div id="text" class="blueblock">LOOK BEYOND THE ORDINARY</div>
+                <img class="images" src="/assets/4k-mountain-1obt47t74ynfn450.jpg" alt="Slide 4">
+                <div class="block"></div>
+            </div>
+        </div>
+        <div class="controls">
+            <img class="next" class="slider" src="assets/slider-next.svg" alt="">
+        </div>
+        <div class="indicators">
+           <span> <img class="dot" class="indicator active" src="assets/slider-dots.svg" alt=""></span>
+           <span> <img class="dot" class="indicator" src="assets/slider-dots.svg" alt=""></span>
+           <span> <img class="dot" class="indicator" src="assets/slider-dots.svg" alt=""></span>
+        </div>
+    </section>
+    
+    <!-- <section class="slider">
         <div class="home">
             <div class="blocks">
                 <h3 class="blue">LOOK BEYOND THE ORDINARY</div>
@@ -25,7 +57,7 @@
             </div>
             <div class="black"></div>
         </div>
-    </section>
+    </section> -->
     <section>
         <div class="about">
             <div class="sen">
@@ -36,16 +68,61 @@
             </div>
         </div>    
     </section>
-    <section class="cards">
-        <div>
+    <section class="cardC">
+        <div class="cards">
             <div>
-                <img src="https://iili.io/d9fa19t.png" alt="">
+                <div class="card">
+                    <img src="https://iili.io/d9fa19t.png" alt="" class="bluearrow">
+                    <h2 class="card-text">THE VISIO DIFFERENCE</h2>
+                </div>
+                <div class="mini">
+                    <div class="thinM">
+                        <h4>HEDGE FUNDS</h4>
+                        <img src="https://iili.io/d9fa19t.png" alt="" class="smallbluearrow">
+                    </div>
+                    <div class="thinM">
+                        <h4>UNIT TRUSTS</h4>
+                        <img src="https://iili.io/d9fa19t.png" alt="" class="smallbluearrow">
+                    </div>
+                </div>
             </div>
-            <div></div>
-            <div></div>
+            <div>
+                <div class="card">
+                    <img src="https://iili.io/d9fa19t.png" alt="" class="bluearrow">
+                    <h2 class="card-textM">MEET THE VISIO TEAM</h2>
+                </div>
+                <div class="mini">
+                    <div class="thin">
+                        <h4>SEGREGATED MANDATES</h4>
+                        <img src="https://iili.io/d9fa19t.png" alt="" class="smallbluearrow">
+                    </div>
+                    <div class="thin">
+                        <h4>AFRICA FUNDS</h4>
+                        <img src="https://iili.io/d9fa19t.png" alt="" class="smallbluearrow">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <img src="https://iili.io/d9fa19t.png" alt="" class="bluearrow">
+                    <h2 class="card-text">OUR FUNDS AND INVESTMENTS</h2>
+                </div>
+                <div class="mini">
+                    <div class="thin">
+                        <h4>FUND PERFORMANCE</h4>
+                        <img src="https://iili.io/d9fa19t.png" alt="" class="smallbluearrow">
+                    </div>
+                    <div class="thin">
+                        <h4 >RISK MANAGEMENT </h4>
+                        <img src="https://iili.io/d9fa19t.png" alt="" class="smallbluearrow">
+                    </div>
+                </div>
+            </div>
+           
         </div>
     </section>
     
 </body>
 <script src="/js/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </html>
