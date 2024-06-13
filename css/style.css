@@ -173,14 +173,12 @@ body{
     width: 20px;
   }
 
-
-
-
   .blueblock {
     top: 346px;
-    width: 19rem;
+    width: 40rem;
     height: 4.6rem;
     background: #244AC2;
+    color: #fff;
     z-index: 1000;
     cursor: pointer;
     display: flex;
@@ -189,16 +187,14 @@ body{
     position: absolute;
     margin-left: 0rem;
 }
-#text{
-    color: #ECEFF9;
-}
+
 .images {
     width: 110rem;
-    height: 70rem;
+    height: 100rem;
     margin-left: 114px;
     margin-top: 103px;
 }
-.block {
+.blackblock {
     top: 346px;
     right: -1rem;
     width: 100rem;
@@ -231,7 +227,7 @@ body{
 .hero-slider {
     position: relative;
     max-width: 100%;
-    height: 700px;
+    height: 650px;
     overflow: hidden;
 }
 .slides {
