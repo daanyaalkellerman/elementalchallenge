@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-.background{
+body{
     background-color: #fff;
 }
 .logo{
@@ -51,12 +51,7 @@
   .burger span:nth-of-type(3) {
     top: 90%;
   }
-  .main{
-    position: relative;
-    margin-bottom: 70px;
-  }
-  
-  .backimage{
+  /* .backimage{
     width: 75rem;
   }
   .home{
@@ -92,12 +87,22 @@
     z-index: -100;
   
    
-  }
+  }*/
 
   .about{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
-    flex-direction: row;
+    gap: 250px;
+    padding: 80px;
+  } 
+  .sen{
+    font-size: 21px;
+    font-weight: 300;
+  }
+
+  .slider{
+    position: relative;
+    margin-bottom: 50px;
   }
